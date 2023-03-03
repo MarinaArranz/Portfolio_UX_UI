@@ -13,6 +13,10 @@
     src: url(../type/DomaineDispNar-Regular.otf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -93,11 +97,14 @@ footer ul {
 }
 
 .logo,
-.logo p {
+.logo p, a, a:visited {
     font-family: telegraf-ultra-bold, Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+
 }
 
 .menu {
@@ -115,11 +122,15 @@ footer ul {
     cursor: pointer;
     text-decoration: none;
     text-transform: uppercase;
-    transition: 0.3 ease-in-out;
+    opacity: .5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
 }
 
 menu a:hover {
-    animation: normal;
+    color:#E2FF3E;
 }
 
 .main-projects {
@@ -363,16 +374,15 @@ align-items: flex-end;
 
 #text-button {
     margin: 0;
+    font-size: 16px;
+    font-family: telegraf-regular, Arial, Helvetica, sans-serif;
 }
 
 #button-projects {
     display: flex;
     justify-content: flex-end;
     margin-right: 104px;
-}
-
-.gradient-1{
-    background-image: url(../public/assets/images/gradient1.png);
+    text-decoration: none;
 }
 
 #description-project{
