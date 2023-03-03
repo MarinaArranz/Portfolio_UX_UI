@@ -1,0 +1,460 @@
+@font-face {
+    font-family: "telegraf-regular";
+    src: url(../type/PPTelegraf-Regular.otf);
+}
+
+@font-face {
+    font-family: "telegraf-ultra-bold";
+    src: url(../type/PPTelegraf-Ultrabold.otf);
+}
+
+@font-face {
+    font-family: "domaine-regular";
+    src: url(../type/DomaineDispNar-Regular.otf);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 8px 16px 8px 16px;
+    background-color: white;
+    z-index: 100;
+}
+
+h1 {
+    font-family: telegraf-regular, Arial, Helvetica, sans-serif;
+    font-size: 96px;
+    padding: 248px 0px 32px 133px;
+}
+
+h2 {
+    font-family: domaine-regular, Georgia, 'Times New Roman', Times, serif;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: telegraf-regular, Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    padding: 148px 0 0 223px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: telegraf-regular, Arial, Helvetica, sans-serif;
+    margin: 16px 0;
+    font-size: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+    padding: 40px 118px 64px 0;
+    font-family: telegraf-regular, Arial, Helvetica, sans-serif;
+    ;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+footer li {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    text-align: right;
+    justify-content: right;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.background-gradient-1{
+    background-image: url(../public/assets/images/GRADIENT-1.png);
+}
+
+.background-gradient-2{
+    background-image: url(../public/assets/images/gradient3.png);
+}
+
+.background-gradient-3{
+    background-image: url(../public/assets/images/GRADIENT-4.png);
+}
+
+.logo,
+.logo p {
+    font-family: telegraf-ultra-bold, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding-right: 32px;
+}
+
+.menu a {
+    font-family: telegraf-regular, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3 ease-in-out;
+}
+
+menu a:hover {
+    animation: normal;
+}
+
+.main-projects {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.main-one-project{
+display:flex;
+flex-direction: column;
+justify-content: center;
+padding-top: 104px;
+padding-top:0;
+gap:168px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 120px 40px;
+}
+
+.about-me article {
+    text-align: end;
+}
+
+.image-about-me {
+    width: 720px;
+    padding-right: 72px;
+}
+
+.about-me div {
+    text-align: right;
+}
+
+.new-tab-cv {
+    margin-top: 64px;
+}
+
+.new-tab-cv p {
+    margin-bottom: 0;
+}
+
+.software-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: telegraf-regular, Arial, Helvetica, sans-serif;
+}
+
+.software-list li {
+    padding: 24px 40px 24px 24px;
+    width: 288px;
+    border: 1px solid #000;
+    margin-bottom: 16px;
+}
+
+.rotate-center {
+
+    -webkit-animation: rotate-center 0.6s ease-in-out both;
+    animation: rotate-center 0.6s ease-in-out both;
+}
+
+.triangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid #E2FF3E;
+    margin-left: 80px;
+}
+
+.triangle:hover {
+    opacity: 0.6;
+    animation: normal;
+}
+
+.soft-skills {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    margin-left: 364px;
+    margin-top: -64px;
+}
+
+.triangle-group {
+    margin-bottom: 144px;
+}
+
+.soft-skill-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: telegraf-regular, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.circle {
+    display: flex;
+    justify-content: right;
+    width: 120px;
+    height: 120px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 1px #000;
+    background: #E2FF3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    cursor: e-resize;
+}
+
+.button-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -100px;
+    margin: 0;
+}
+
+.subtittle-gallery {
+    text-align: left;
+}
+
+.subtittle-about {
+    text-align: right;
+}
+
+.shadow-pop-tr {
+    -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) 3s both;
+    animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) 3s both;
+}
+
+.projects-pages {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.projects-pages a {
+    font-family: telegraf-regular, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+.tittle-projects-pages {
+    padding-top: 464px;
+    padding-left: 40px;
+}
+
+.carrousel-projects {
+    display: flex;
+    flex-direction: row;
+    align-content: right;
+    overflow-x: scroll;
+    width: 869px;
+    height: 665px;
+    left: 597px;
+    top: 164px;
+    position: absolute;
+}
+
+.card-preview-project {
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-end;
+}
+
+.final.carrousel{
+     height: 142px;
+     margin-right: 140px;
+     display: block;
+}
+
+.hr-carrousel{
+    size: 1px;
+    color: black;
+    width: 65%;
+    margin-left: 24px;
+    height: 636px;
+}
+.preview-project-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+}
+
+.type-project-carrousel {
+    font-family: telegraf-regular, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: right;
+    color: #000000;
+    writing-mode: vertical-lr;
+    padding-left: 256px;
+}
+
+.foot-card-preview-project{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 64px 0 0 0;
+}
+
+.number-project{
+     font-family: domaine-regular, Georgia, 'Times New Roman', Times, serif;
+     font-size: 96px;
+}
+
+.narrow-open-tab{
+    width: 48px;
+    height: 48px;
+}
+
+.section-1-project{
+    display: flex;
+    flex-direction: row;
+    gap:437px;
+}
+
+.inicial-project{
+display:flex;
+flex-direction: column;
+justify-content: right;
+align-items: flex-end;
+}
+
+
+#narrow-button-yellow {
+    width: 88px;
+}
+
+#text-button {
+    margin: 0;
+}
+
+#button-projects {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 104px;
+}
+
+.gradient-1{
+    background-image: url(../public/assets/images/gradient1.png);
+}
+
+#description-project{
+    font-family: telegraf-ultra-bold, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 0;
+}
+
+#data-project{
+    font-family: telegraf-regular, Arial, Helvetica, sans-serif;
+    font-size: 24px; ;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-3-2 10:1:16
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation rotate-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes shadow-pop-tr {
+    0% {
+        -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+        box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+        -webkit-transform: translateX(0) translateY(0);
+        transform: translateX(0) translateY(0);
+    }
+
+    100% {
+        -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+        box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+        -webkit-transform: translateX(-8px) translateY(8px);
+        transform: translateX(-8px) translateY(8px);
+    }
+}
+
+@keyframes shadow-pop-tr {
+    0% {
+        -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+        box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+        -webkit-transform: translateX(0) translateY(0);
+        transform: translateX(0) translateY(0);
+    }
+
+    100% {
+        -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+        box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+        -webkit-transform: translateX(-8px) translateY(8px);
+        transform: translateX(-8px) translateY(8px);
+    }
+}
+
+
+@media(min-width:425px) {}
